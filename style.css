@@ -18,7 +18,7 @@ hr {
 /* spaces */
 
 .ul-pad {
-    padding: 2rem 1rem;
+    padding-bottom: 5rem;
 }
 
 .margin-md {
@@ -29,7 +29,7 @@ hr {
 
 /* container */
 .container {
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .container-center {
@@ -69,12 +69,17 @@ a:active {
 /* lists */
  
 .list-non-bulllet {
-    list-style-type: none;
+    list-style: none;
 }
 
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem; 
+}
+
+.list-ul {
+    max-width: 600px;
+    margin: auto;
 }
 
 /* navigation */
