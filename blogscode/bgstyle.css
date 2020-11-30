@@ -3,7 +3,7 @@
 :root {
     --primary-color: #60A5FA;
     --off-white: #E5E7EB;
-    --dark-gray: #9CA3AF;
+    --dark-gray: #81858b;
 }
 
 body{
@@ -23,6 +23,7 @@ body{
 
 .navigation .nav-brand {
     font-weight: bold;
+    text-align: left;
 }
 
 .navigation .nav-pills {
@@ -45,7 +46,7 @@ body{
 }
 
 .blog .blog-img {
-    max-width: 600px;
+    max-width: 400px;
     display: block;
     margin: auto;
     padding: 2rem 2rem;
@@ -54,16 +55,18 @@ body{
 .blog .blog-heading {
     text-align: center;
     padding-top: 0rem;
-   color: var(--dark-gray);
+    color: var(--primary-color);
+    font-weight: bold;
+    
 }
 
 /* links */
 .link {
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem; */
+    /* padding: 0.5rem 1rem; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .link-primary {
@@ -79,12 +82,37 @@ body{
 }
 
 a:hover {
-    color: #1E3A8A;
+    color: #1e3a8a;
 }
 
 a:active {
     color: #1E3A8A;
 }
+
+/* container */
+.container {
+    padding: 1rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* sections */
+
+.section {
+    padding: 2rem;
+}
+
+ .section h1{
+     text-align: center;
+ }
+
+ .ow {
+     background-color: var(--off-white);
+
+ }
 
 /* lists */
  
@@ -102,6 +130,14 @@ a:active {
     margin: auto;
 }
 
+/* content */
+.para {
+    /* color: var(--dark-gray); */
+    margin: auto;
+    max-width: 600px;
+    padding: 0.5rem;
+    font-size: medium;
+}
 
 /* foooter */
 
