@@ -1,4 +1,4 @@
 # Anjali-Divekar
-Host your website using html css<br>
-CHeckout my portfolio 👇🏻 <br>
+Made my first portfolio website using pure html and css<br>
+Checkout my portfolio here!👇🏻 <br>
 https://anjalidivekar.netlify.app/
